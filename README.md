@@ -7,6 +7,12 @@ Minecraft inventory images. It runs in Node.js without a browser. You handle
 loading assets, resolving model inheritance, choosing resource packs and timing
 animations.
 
+![Minecraft reference and MAR rendering complete faces in sync](docs/geist-comparison.gif)
+
+[MC reference: view original screenshot](docs/minecraft-original.png)
+
+Skin data: [Hypixel](https://api.hypixel.net/v2/resources/skyblock/items) and [NEU](https://github.com/NotEnoughUpdates/NotEnoughUpdates-REPO).
+
 ## Install
 
 Use Node.js 24 or newer and pnpm 11.25.0. The package is private and installed from a local archive.
@@ -43,7 +49,7 @@ Heads use a 64×32 or 64×64 PNG skin. Flat items use PNG layers with optional
 six-digit hex tints, such as `#80FF80`. For cuboid models, pass the resolved model,
 texture bytes and optional face tints.
 
-Game and resource-pack assets aren't included.
+Supply the game and resource-pack assets for the items you want to render.
 
 Use `renderSprite(frames, options)` to create a vertical PNG sprite sheet with
 one square cell per frame. All frames share the same framing so they stay

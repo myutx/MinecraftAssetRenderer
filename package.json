@@ -15,6 +15,7 @@
   "files": [
     "dist",
     "src",
+    "docs",
     "tsconfig.json",
     "LICENSE",
     "README.md"

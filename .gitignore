@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.tgz
+.env*
+!.env.example
+*.pem
+*.key
+npm-debug.log*
+pnpm-debug.log*
+/test/
+.research/

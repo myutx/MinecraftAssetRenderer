@@ -7,7 +7,7 @@ Minecraft inventory images. It runs in Node.js without a browser. You handle
 loading assets, resolving model inheritance, choosing resource packs and timing
 animations.
 
-![Minecraft reference and MAR rendering complete faces in sync](docs/geist-comparison.gif)
+![Minecraft reference and MAR rendering complete faces in sync](docs/minecraft-vs-mar.gif)
 
 [MC reference: view original screenshot](docs/minecraft-original.png)
 
